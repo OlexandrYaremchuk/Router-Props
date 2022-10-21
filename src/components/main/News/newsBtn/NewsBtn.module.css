@@ -1,0 +1,13 @@
+.btn {
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+}
+.btn:hover {
+  border: 1px solid rgb(21, 140, 238);
+}
+.btn:active {
+  -webkit-box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.46);
+}
