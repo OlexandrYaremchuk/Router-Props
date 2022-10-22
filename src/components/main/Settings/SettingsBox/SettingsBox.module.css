@@ -1,0 +1,9 @@
+.settingsBox{
+display: flex;
+}
+.settingsBox img{
+    width: 150px;
+}
+.settingsBox p{
+    padding: 15px;
+}
