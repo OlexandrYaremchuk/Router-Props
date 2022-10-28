@@ -3,13 +3,15 @@ import './App.css';
 import Header from './components/header/header';
 import Main from './components/main/Main';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Main
+        textBoxData={props.appState.homePage.textBoxData}
+        NewsData={props.appState.newsPage.NewsData}
+      />
     </div>
   );
 }
-
 export default App;

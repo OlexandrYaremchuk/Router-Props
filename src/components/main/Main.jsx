@@ -7,15 +7,15 @@ import Message from './Message/Message';
 import News from './News/News';
 import Settings from './Settings/Settings';
 
-function Main() {
-    return (
+function Main(props) {
 
+    return (
         <div className={style.main}>
 
             <div>
                 <Routes>
-                    <Route path='Home' element={<Home />} />
-                    <Route path='News' element={<News />} />
+                    <Route path='Home' element={<Home textBoxData={props.textBoxData} />} />
+                    <Route path='News' element={<News NewsData={props.NewsData} />} />
                     <Route path='Settings' element={<Settings />} />
                     <Route path='Message' element={<Message />} />
                 </Routes>
